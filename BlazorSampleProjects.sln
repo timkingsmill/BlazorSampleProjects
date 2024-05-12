@@ -6,11 +6,29 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9F7A9FC4-5C57-4C48-AE44-7D750B6C2804}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{15028D35-3DFF-4CE6-A9C6-7A1D34A3070B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebApp", "Samples\BlazorWebApp\BlazorWebApp.csproj", "{4F29EB31-A65D-42C2-8952-7B38FE222110}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F29EB31-A65D-42C2-8952-7B38FE222110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F29EB31-A65D-42C2-8952-7B38FE222110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F29EB31-A65D-42C2-8952-7B38FE222110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F29EB31-A65D-42C2-8952-7B38FE222110}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4F29EB31-A65D-42C2-8952-7B38FE222110} = {15028D35-3DFF-4CE6-A9C6-7A1D34A3070B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5542410-695B-4D00-8D76-CA18CF8A1A23}
